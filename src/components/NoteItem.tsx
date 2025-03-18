@@ -182,10 +182,6 @@ function NoteItem() {
                         console.log("Sort Order Changed: ", e.target.value);
                         setSortOrder(e.target.value as 'desc' | 'asc')
                     }}
-                    onBlur={(e) => {
-                        console.log("Sort Order Blurred: ", e.target.value);
-                        setSortOrder(e.target.value as 'desc' | 'asc');
-                    }}
                     className="p-2 border rounded-md outline-0 cursor-pointer text-sm"
                 >
                     <option value="desc">Newest</option>
