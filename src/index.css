@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+font-family: "Lexend Deca", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
